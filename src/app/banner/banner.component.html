@@ -1,0 +1,18 @@
+<nav>
+    <div>
+        <fa-icon *ngIf="router.url === '/'" [icon]="faChevronRight"></fa-icon>
+        <a routerLink="/">accueil</a>
+    </div>
+    <div>
+        <fa-icon *ngIf="router.url === '/rankings'" [icon]="faChevronRight"></fa-icon>
+        <a routerLink="/rankings">palmares</a>
+    </div>
+    <div>
+        <fa-icon *ngIf="router.url === '/teams'" [icon]="faChevronRight"></fa-icon>
+        <a routerLink="/team">nos équipes</a>
+    </div>
+    <div>
+        <fa-icon *ngIf="router.url === '/staff'" [icon]="faChevronRight"></fa-icon>
+        <a routerLink="/staff">notre staff</a>
+    </div>                
+</nav>
