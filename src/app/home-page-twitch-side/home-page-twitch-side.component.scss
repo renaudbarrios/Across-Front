@@ -1,0 +1,27 @@
+#twitch-across{
+    //height: 100%;
+    //height: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("../../assets/font/BebasNeue-Regular.ttf") format("truetype"),
+            url("../../assets/font/BebasNeue-Regular.ttf") format("truetype");
+   }
+
+h1{
+    font-family: "Bebas"; 
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin: 20px;
+}
+
+h3{
+text-align: left;
+font: normal normal normal 25px/30px Roboto;
+letter-spacing: 2.5px;
+text-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}

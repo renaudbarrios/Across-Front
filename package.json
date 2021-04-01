@@ -25,8 +25,11 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "bootstrap": "^5.0.0-beta1",
+    "normalize.css": "^8.0.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "twitch-js": "^2.0.0-beta.42",
+    "twitch-player": "^2.0.2",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {

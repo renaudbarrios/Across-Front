@@ -1,0 +1,21 @@
+#bg{
+    background-color: #771515;
+    height: calc(100% - 120px);
+    display: flex;
+
+    app-home-page-twitch-side,
+    #right {
+        width: 50%;
+    }
+
+    #right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .half-height{
+        display: flex;
+        flex-direction: row;
+        height: 50%;
+    }
+}
